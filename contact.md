@@ -5,8 +5,8 @@ layout: page
 
 ```
 NAND bvba
-Kerkstraat 108
-9050 Gentbrugge
+Bouwmeestersstraat 76
+9040 Gent
 
 0667.586.068
 ```
