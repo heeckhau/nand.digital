@@ -1,4 +1,4 @@
-baseURL = "http://nand.digital"
+baseURL = "https://nand.digital"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "NAND"
