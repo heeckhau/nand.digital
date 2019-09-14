@@ -1,0 +1,34 @@
+baseURL = "http://nand.digital"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "NAND"
+theme = "cupper-hugo-theme"
+enableGitInfo = false
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+description = "NAND bvba"
+  homeMetaContent = "NAND bvba"
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  codePenUser = "someUser"
+  katex = false
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
