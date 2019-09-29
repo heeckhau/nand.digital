@@ -1,11 +1,3 @@
-<footer role="contentinfo">
-  <div>
-    <label for="themer">
-      dark theme: <input type="checkbox" id="themer" class="vh" value="false">
-      <span aria-hidden="true"></span>
-    </label>
-  </div>
-  {{ with .Site.Params.footer }}
-    {{ . | markdownify }}
-  {{ end }}
+<footer>
+  {{ "<small>[Any boolean function can be implemented by using a combination of NAND gates.](https://en.wikipedia.org/wiki/NAND_gate)</small>" | markdownify }}
 </footer>

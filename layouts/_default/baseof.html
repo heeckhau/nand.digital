@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div  class="uk-padding">
+
+        <div id="content">
+            <div class="uk-container-expand">
+                <div uk-height-viewport="expand: true">
+                    <div class="uk-flex uk-flex-center">
+                       {{- block "main" . }}{{- end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{- partial "footer.html" . -}}
+        </div>
+    </body>
+
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script>
+</html>
